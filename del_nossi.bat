@@ -1,0 +1,1 @@
+del /S *.nossi
