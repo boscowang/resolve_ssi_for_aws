@@ -4,8 +4,8 @@ var lodash = require("lodash");
 //console.log = function() {};
 
 var main = function(){
-	//var filePathList = ["mini-site/hos2018/en/index.html"];
-	var relativeEntryDir = 'mini-site/hos2018/en/';
+	//var filePathList = ["documentRoot/en/index.html"];
+	var relativeEntryDir = 'documentRoot/en/';
 	var documentRoot = __dirname + "/document_root/";
 
 	console.log(arguments.callee.name, relativeEntryDir);
